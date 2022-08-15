@@ -41,7 +41,7 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 		c++;
 		b++;
 	}
-	if (c == size && size > 0)
+	if (c == size && size > 0 && c < size)
 		dest[c - 1] = '\0';
 	else
 		dest[c] = '\0';
