@@ -50,15 +50,15 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	else
 		return (size + ft_strlen(src));
 }
-#include <stdio.h>
-int main(void)
-{
- char a[10] = "";
- printf("%d\n",ft_strlcat(a,"4567889019", 0));
- printf("%s\n", a);
+// #include <stdio.h>
+// int main(void)
+// {
+//  char a[10] = "";
+//  printf("%d\n",ft_strlcat(a,"4567889019", 0));
+//  printf("%s\n", a);
  
- char b[10] = "";
- printf("%lu\n", strlcat(b, "4567889019", 0));
- printf("%s\n", b);
-}
+//  char b[10] = "";
+//  printf("%lu\n", strlcat(b, "4567889019", 0));
+//  printf("%s\n", b);
+// }
 
